@@ -1,7 +1,7 @@
 # PsyLab-First_proj
 ## First Project for the Experimental Psychology Lab course
 
-This website shows Hello ______!, where you can write your Name into the Textbox (instead of ____ on the website).
+This website shows the title "ExpPsychoLab Website 1" and "Hello USER!", provides two buttons which invert the colors of the background gif and set it back to normal and has a GitHub symbol linking back to GitHub.com. 
 
 
 
