@@ -2,35 +2,78 @@
 <html lang="en">
 
   <head>
-    <title>Experimental Psychology Lab Website 1</title>
+    <title>Experimental Psychology Lab Website 1.</title>
 
     <style type="text/css">
-
-      #backGIF {
-        border: null;
-        background: url(https://s14-eu5.startpage.com/cgi-bin/serveimage?url=https%3A%2F%2Fmedia1.giphy.com%2Fmedia%2F26tkmH4VvEh4m0jiU%2Fsource.gif&sp=33d629c8b9af2fe9ed1ee5681482d078);
-        background-size: 60%;
-      }
+	
+	  #bodyCHANGE {
+      background: url(Hawaii_Kawaii.gif) no-repeat fixed center;
+		  background-size: cover;
+	  }
 
       div.relative {
-        position: relative;
-        left: 250px;
-        border: null;
+      text-align: center;
+		  font-size: 150%;
       }
+	  
+	  h1 {
+		  color: #00ffff;
+		  font-size: 300%;
+		  padding-top: 20px;
+		  padding-left: 50px;
+		  padding-right: 50px;
+		  padding-bottom: 450px;
+	  }
+	  
+	  label {
+		  font-size: 150%;
+	  }
+	  
+	  button {
+		  font-size: 200%;
+	  }
+	  
+	  .wrapper {
+		  text-align: center;
+	  }
+	  
+	  script {
+		  font-size: 200%;
+	  }
+	  
+	  p {
+		  font-size: 120%;
+		  color: tomato;
+	  }
 
     </style>
+
+	<script>
+		function inverter() {
+				document.body.style.background = "url('Hawaii_Kawaii_Inverted.gif') no-repeat fixed center";
+				document.body.style.backgroundSize = "cover";
+		}
+		
+		function reverse() {
+				document.body.style.background = "url('Hawaii_Kawaii.gif') no-repeat fixed center";
+				document.body.style.backgroundSize = "cover";
+		}
+	
+	</script
+	
   </head>
 
-  <body id="backGIF">
+  <body id="bodyCHANGE">
     <div class="relative">
-      <h1>Experimental Psychology Lab Website 1</h1>
+      <h1>ExpPsychoLab Website 1</h1>
       <form style="display:inline;">
-        <label>
-          Hello
-          <input/> !
-        </label>
+          <p>Hello USER!</p>
       </form>
-    </div>
+	</div>
+	<div class="wrapper"> 
+		<button type="button" onclick="inverter()">PRESS ME!</button>
+		<button type="button" onclick="reverse()">Reset</button>
+	</div>
   </body>
 
 </html>
